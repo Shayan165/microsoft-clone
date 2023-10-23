@@ -1,0 +1,192 @@
+.responsive-nav {
+  display: none;
+}
+
+.banner-img {
+  display: block;
+}
+
+.banner-responsive-img {
+  display: none;
+}
+.image-container .centered-image {
+  display: inline-block;
+}
+
+.image-container .centered-responsive-image {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* Navbar */
+  .right-links {
+    display: none;
+  }
+  .left-links {
+    display: none;
+  }
+
+  .responsive-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .responsive-nav i {
+    padding: 20px 10px;
+    font-size: 20px;
+  }
+
+  .responsive-nav .logo {
+    padding-top: 15px;
+  }
+
+  .responsive-nav .logo img {
+    width: 150px;
+    text-align: center;
+  }
+
+  /* banner */
+  .banner {
+    margin-bottom: 300px;
+  }
+  .banner-img {
+    display: none;
+  }
+  .banner-responsive-img {
+    display: block;
+  }
+
+  .banner-responsive-img img {
+    width: 100%;
+  }
+
+  .banner-content {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    width: 70%;
+  }
+
+  .services {
+    flex-wrap: wrap;
+  }
+
+  .services .item {
+    flex-basis: 26%;
+  }
+
+  .services .item a {
+    font-size: 13px;
+  }
+
+  .image-container .centered-image {
+    display: none;
+  }
+
+  .image-container .centered-responsive-image {
+    display: block;
+    width: 100%;
+  }
+
+  .text-overlay {
+    position: relative;
+    margin-top: 50px;
+    left: 3%;
+    width: 420px;
+  }
+
+  .text-overlay h2 {
+    color: black;
+  }
+
+  .text-overlay p {
+    color: black;
+  }
+
+  .service-links {
+    flex-wrap: wrap;
+  }
+
+  .service-links .footer-content {
+    flex-basis: 26%;
+    padding-bottom: 48px;
+  }
+
+  .extra-content-1 li a {
+    font-size: 8px;
+    padding-right: 10px;
+  }
+  .extra-content-2 li a {
+    font-size: 8px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner {
+    margin-bottom: 0;
+  }
+  .banner-content {
+    top: 40%;
+    left: 9%;
+  }
+  .banner-content h1 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  .banner-content p {
+    font-size: 14px;
+  }
+  .banner-content a {
+    position: absolute;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0067b8;
+    padding: 10px 12px;
+    border-radius: 2px;
+    margin: 0.5rem 0rem;
+  }
+
+  .services .item {
+    flex-basis: 50%;
+  }
+
+  .services .item a {
+    font-size: 11px;
+  }
+  .cards-container {
+    gap: 40px;
+  }
+
+  .cards-container .cards h2 {
+    font-size: 20px;
+  }
+
+  .text-overlay h2 {
+    font-size: 24px;
+  }
+  .heading-for-business h2 {
+    font-size: 24px;
+  }
+  .service-links .footer-content {
+    flex-basis: 85%;
+  }
+
+  .copyright-links {
+    margin: 30px 25px;
+    flex-direction: column;
+  }
+  .extra-content-1 {
+    flex-direction: column;
+    margin: -58px 0px 20px -183px;
+  }
+  .extra-content-2 {
+    flex-wrap: wrap;
+    margin-bottom: -20px;
+  }
+  .extra-content-2 li a span {
+    font-size: 12px;
+  }
+}
