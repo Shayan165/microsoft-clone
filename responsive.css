@@ -29,6 +29,7 @@
   .responsive-nav {
     display: flex;
     justify-content: space-between;
+    margin: -9px 0px;
   }
   .responsive-nav i {
     padding: 20px 10px;
@@ -40,8 +41,7 @@
   }
 
   .responsive-nav .logo img {
-    width: 150px;
-    text-align: center;
+    width: 108px;
   }
 
   /* banner */
@@ -65,7 +65,16 @@
     left: 5%;
     width: 70%;
   }
-
+  .banner-content h1 {
+    font-size: 1.5rem;
+}
+.heading-for-business h2 {
+  font-size: 1.5rem;
+}
+.cards-container .cards h2 {
+  font-size: 1.3125rem;
+  padding-top: 1rem;
+}
   .services {
     flex-wrap: wrap;
   }
@@ -119,20 +128,38 @@
     font-size: 8px;
     padding-right: 10px;
   }
+  .extra-content-1 li a span{
+    margin-right: 0;
+  }
+  .extra-content-2 li a span{
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 576px) {
   .banner {
+    height: 420px;
     margin-bottom: 0;
   }
   .banner-content {
-    top: 40%;
+    top: 36%;
     left: 9%;
   }
   .banner-content h1 {
-    font-size: 24px;
-    margin-bottom: 1rem;
-  }
+    font-size: 1.5rem;
+    margin-bottom: .75rem;
+}
+.heading-for-business h2 {
+  font-size: 1.5rem;
+}
+.cards-container .cards h2 {
+  font-size: 1.3125rem;
+  padding-top: 1rem;
+}
+.services {
+  margin-bottom: 1rem;
+}
+
   .banner-content p {
     font-size: 14px;
   }
@@ -150,24 +177,17 @@
   }
 
   .services .item {
-    flex-basis: 50%;
+    flex-basis: 65%;
   }
 
   .services .item a {
-    font-size: 11px;
+    font-size: 15px;
   }
   .cards-container {
     gap: 40px;
   }
 
-  .cards-container .cards h2 {
-    font-size: 20px;
-  }
-
   .text-overlay h2 {
-    font-size: 24px;
-  }
-  .heading-for-business h2 {
     font-size: 24px;
   }
   .service-links .footer-content {
@@ -182,11 +202,20 @@
     flex-direction: column;
     margin: -58px 0px 20px -183px;
   }
+
+  .extra-content-1 li {
+    margin-left: 35px;
+  }
+  .extra-content-1 li a span{
+    font-size: 12px;
+    margin-right: 0;
+  }
   .extra-content-2 {
     flex-wrap: wrap;
     margin-bottom: -20px;
   }
   .extra-content-2 li a span {
     font-size: 12px;
+    margin-right: 0;
   }
 }

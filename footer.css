@@ -24,10 +24,11 @@ footer {
   line-height: 2rem;
   text-decoration: none;
   font-size: 11px;
-  color: rgba(0, 0, 0, 0.9);
+  color: #616161;
 }
 .service-links .footer-content li a:hover{
   border-bottom: 1px solid;
+  color: black;
 }
 
 .copyright-links{
@@ -47,10 +48,17 @@ list-style: none;
 }
 
 .extra-content-1 li a{
+  line-height: 2rem;
   text-decoration: none;
+  font-size: 11px;
+ color: #616161;
+}
+.extra-content-1 li a span{
+  margin-right: 20px;
 }
 .extra-content-1 li a span:hover{
   border-bottom: 1px solid;
+  color: black;
 }
 
 .extra-content-2{
@@ -62,10 +70,17 @@ list-style: none;
 }
 
 .extra-content-2 li a{
+  line-height: 2rem;
   text-decoration: none;
-  
+  font-size: 11px;
+  color: #616161;
+}
+
+.extra-content-2 li a span{
+  margin-right: 20px;
 }
 
 .extra-content-2 li a span:hover{
   border-bottom: 1px solid;
+  color: black;
 }
